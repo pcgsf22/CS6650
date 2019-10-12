@@ -48,12 +48,12 @@ public class Params {
    */
   static public Params getInstance() {
     Params params = new Params();
-    params.maxThreads = 256;
+    params.maxThreads = 1024;
     params.numberSkiers = 20000;
     params.skiLifts = 40;
     params.meanLifts = 20;
     params.address = "http://35.162.224.73:8080/hw1/";
-    params.fileName = "local_test.csv";
+    params.fileName = "1024.csv";
     return params;
   }
 

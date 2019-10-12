@@ -15,7 +15,7 @@ public class Params {
 
   static public Params getInstance(){
     Params params = new Params();
-    params.maxThreads = 32;
+    params.maxThreads = 512;
     params.numberSkiers = 20000;
     params.skiLifts = 40;
     params.meanLifts = 20;
