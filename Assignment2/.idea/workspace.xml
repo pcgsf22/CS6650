@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Assignment2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4efb3721-6395-4922-8170-0887d510257e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assignment1/server/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment1/server/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment1/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment1/server/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Assignment2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Assignment2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmulti_part2/.idea/artifacts/swagger_java_client_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientmulti_part2/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DbSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/LiftRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message/AbstractMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message/DataNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message/InValidResortId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message/InvalidInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message/ResortNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Resort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ResortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/SeasonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/SkierVertical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/SkierVerticalResorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/StatisBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/StatisList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/clientmulti_part1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/clientmulti_part1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/clientmulti_part2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/clientmulti_part2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/clientmulti_part2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/clientmulti_part2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/server/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ResortServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1017">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/StatisBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/SkierVertical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DbSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StatisticsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/StatisList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="3" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SkierServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2099">
+              <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/DbSingleton">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>DbSingleton</OriginalElement>
+              <nodes>
+                <node x="364.0" y="1637.0">Model.SkierVerticalResorts</node>
+                <node x="1256.34375" y="1347.0">UpdateStatus</node>
+                <node x="2134.46875" y="1286.0">Model.LiftRide</node>
+                <node x="0.0" y="1850.0">Model.ResortList</node>
+                <node x="0.0" y="1326.5">Model.Body</node>
+                <node x="816.0" y="1637.0">Model.SeasonList</node>
+                <node x="1472.46875" y="1550.0">SkierServlet</node>
+                <node x="1882.96875" y="672.5">Model.StatisList</node>
+                <node x="1818.96875" y="0.0">Model.StatisBody</node>
+                <node x="211.0" y="1347.0">Model.Message.ResortNotFound</node>
+                <node x="472.0" y="1347.0">Model.Message.InvalidInput</node>
+                <node x="460.5" y="1769.0">Model.SkierVertical</node>
+                <node x="532.4785156250001" y="693.0">Model.Message.AbstractMessage</node>
+                <node x="695.0" y="1347.0">Model.Message.InValidResortId</node>
+                <node x="40.5" y="1637.0">Model.Resort</node>
+                <node x="1856.46875" y="1367.0">StatisticsServlet</node>
+                <node x="951.0" y="1347.0">Model.Message.DataNotFound</node>
+                <node x="415.75" y="1550.0">ResortServlet</node>
+                <node x="1177.96875" y="293.0">DbSingleton</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="SkierServlet" target="DbSingleton">
+                  <point x="25.375" y="-21.0" />
+                  <point x="1599.34375" y="1530.0" />
+                  <point x="1623.84375" y="1530.0" />
+                  <point x="1623.84375" y="1266.0" />
+                  <point x="1606.09375" y="1266.0" />
+                  <point x="85.625" y="461.5" />
+                </edge>
+                <edge source="ResortServlet" target="Model.Body">
+                  <point x="-85.60000000000002" y="-21.0" />
+                  <point x="437.15" y="1530.0" />
+                  <point x="95.5" y="1530.0" />
+                  <point x="0.0" y="61.5" />
+                </edge>
+                <edge source="UpdateStatus" target="DbSingleton">
+                  <point x="0.0" y="-41.0" />
+                  <point x="-85.625" y="461.5" />
+                </edge>
+                <edge source="Model.StatisList" target="Model.StatisBody">
+                  <point x="111.33333333333348" y="-82.0" />
+                  <point x="2161.3020833333335" y="268.0" />
+                  <point x="2203.96875" y="268.0" />
+                  <point x="154.0" y="121.5" />
+                </edge>
+                <edge source="ResortServlet" target="DbSingleton">
+                  <point x="42.799999999999955" y="-21.0" />
+                  <point x="565.55" y="1520.0" />
+                  <point x="1245.84375" y="1520.0" />
+                  <point x="1245.84375" y="1266.0" />
+                  <point x="1263.59375" y="1266.0" />
+                  <point x="-256.875" y="461.5" />
+                </edge>
+                <edge source="Model.Message.ResortNotFound" target="Model.Message.AbstractMessage">
+                  <point x="60.25" y="-41.0" />
+                  <point x="391.75" y="1246.0" />
+                  <point x="589.6660156250001" y="1246.0" />
+                  <point x="-95.3125" y="61.5" />
+                </edge>
+                <edge source="Model.Message.InvalidInput" target="Model.Message.AbstractMessage">
+                  <point x="-50.75" y="-41.0" />
+                  <point x="522.75" y="1256.0" />
+                  <point x="627.7910156250001" y="1256.0" />
+                  <point x="-57.1875" y="61.5" />
+                </edge>
+                <edge source="StatisticsServlet" target="DbSingleton">
+                  <point x="-64.5" y="-21.0" />
+                  <point x="1920.96875" y="1266.0" />
+                  <point x="1777.34375" y="1266.0" />
+                  <point x="256.875" y="461.5" />
+                </edge>
+                <edge source="Model.ResortList" target="Model.Resort">
+                  <point x="-79.75" y="-61.5" />
+                  <point x="79.75" y="1825.0" />
+                  <point x="100.0" y="1825.0" />
+                  <point x="-59.5" y="81.5" />
+                </edge>
+                <edge source="SkierServlet" target="UpdateStatus">
+                  <point x="-25.375" y="-21.0" />
+                  <point x="1548.59375" y="1530.0" />
+                  <point x="1524.09375" y="1530.0" />
+                  <point x="89.25" y="41.0" />
+                </edge>
+                <edge source="ResortServlet" target="UpdateStatus">
+                  <point x="85.60000000000002" y="-21.0" />
+                  <point x="608.35" y="1530.0" />
+                  <point x="1345.59375" y="1530.0" />
+                  <point x="-89.25" y="41.0" />
+                </edge>
+                <edge source="Model.SkierVertical" target="Model.SkierVerticalResorts">
+                  <point x="0.0" y="-21.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="StatisticsServlet" target="Model.StatisList">
+                  <point x="64.5" y="-21.0" />
+                  <point x="0.0" y="82.0" />
+                </edge>
+                <edge source="ResortServlet" target="Model.Message.InvalidInput">
+                  <point x="0.0" y="-21.0" />
+                  <point x="-50.75" y="41.0" />
+                </edge>
+                <edge source="SkierServlet" target="Model.LiftRide">
+                  <point x="76.125" y="-21.0" />
+                  <point x="1650.09375" y="1530.0" />
+                  <point x="2286.46875" y="1530.0" />
+                  <point x="0.0" y="102.0" />
+                </edge>
+                <edge source="Model.Message.DataNotFound" target="Model.Message.AbstractMessage">
+                  <point x="-70.0" y="-41.0" />
+                  <point x="1021.0" y="1246.0" />
+                  <point x="780.2910156250001" y="1246.0" />
+                  <point x="95.3125" y="61.5" />
+                </edge>
+                <edge source="Model.Message.InValidResortId" target="Model.Message.AbstractMessage">
+                  <point x="-59.0" y="-41.0" />
+                  <point x="754.0" y="1266.0" />
+                  <point x="704.0410156250001" y="1266.0" />
+                  <point x="19.0625" y="61.5" />
+                </edge>
+                <edge source="SkierServlet" target="Model.Message.InvalidInput">
+                  <point x="-76.125" y="-21.0" />
+                  <point x="1497.84375" y="1510.0" />
+                  <point x="624.25" y="1510.0" />
+                  <point x="50.75" y="41.0" />
+                </edge>
+                <edge source="ResortServlet" target="Model.Message.ResortNotFound">
+                  <point x="-42.80000000000001" y="-21.0" />
+                  <point x="479.95000000000005" y="1520.0" />
+                  <point x="331.5" y="1520.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7109884596086302" x="217.45130557515876" y="327.55822159491885" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>Project Files</SCOPE>
+              <VISIBILITY>packageLocal</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Message/DataNotFound.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Message/ResortNotFound.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Message/InValidResortId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StatisticsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SkierServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ResortServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DbSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/StatisList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/StatisBody.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1196" />
+    <option name="y" value="1070" />
+    <option name="width" value="1920" />
+    <option name="height" value="1719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HW2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clientmulti_part2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.313052" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Assignment2_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Assignment2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Assignment2_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HW2Server" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="41517" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Assignment2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/scalaProjects/quickcheck" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4efb3721-6395-4922-8170-0887d510257e" name="Default Changelist" comment="" />
+      <created>1572728438572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572728438572</updated>
+      <workItem from="1572728442156" duration="25755000" />
+      <workItem from="1572774714229" duration="3201000" />
+      <workItem from="1572785319644" duration="24807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53763000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="3848" height="2112" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49843425" visible="true" weight="0.17559682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.50156575" side_tool="true" visible="true" weight="0.17559682" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32966456" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13204592" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3291874" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32809225" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Message/DataNotFound.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/DbSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/SeasonList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Message/AbstractMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Message/ResortNotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ResortList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Message/InValidResortId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/SkierVerticalResorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/LiftRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/DbSingleton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DbSingleton</OriginalElement>
+          <nodes>
+            <node x="364.0" y="1637.0">Model.SkierVerticalResorts</node>
+            <node x="1256.34375" y="1347.0">UpdateStatus</node>
+            <node x="2134.46875" y="1286.0">Model.LiftRide</node>
+            <node x="0.0" y="1850.0">Model.ResortList</node>
+            <node x="0.0" y="1326.5">Model.Body</node>
+            <node x="816.0" y="1637.0">Model.SeasonList</node>
+            <node x="1472.46875" y="1550.0">SkierServlet</node>
+            <node x="1882.96875" y="672.5">Model.StatisList</node>
+            <node x="1818.96875" y="0.0">Model.StatisBody</node>
+            <node x="211.0" y="1347.0">Model.Message.ResortNotFound</node>
+            <node x="472.0" y="1347.0">Model.Message.InvalidInput</node>
+            <node x="460.5" y="1769.0">Model.SkierVertical</node>
+            <node x="532.4785156250001" y="693.0">Model.Message.AbstractMessage</node>
+            <node x="695.0" y="1347.0">Model.Message.InValidResortId</node>
+            <node x="40.5" y="1637.0">Model.Resort</node>
+            <node x="1856.46875" y="1367.0">StatisticsServlet</node>
+            <node x="951.0" y="1347.0">Model.Message.DataNotFound</node>
+            <node x="415.75" y="1550.0">ResortServlet</node>
+            <node x="1177.96875" y="293.0">DbSingleton</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="SkierServlet" target="DbSingleton">
+              <point x="25.375" y="-21.0" />
+              <point x="1599.34375" y="1530.0" />
+              <point x="1623.84375" y="1530.0" />
+              <point x="1623.84375" y="1266.0" />
+              <point x="1606.09375" y="1266.0" />
+              <point x="85.625" y="461.5" />
+            </edge>
+            <edge source="ResortServlet" target="Model.Body">
+              <point x="-85.60000000000002" y="-21.0" />
+              <point x="437.15" y="1530.0" />
+              <point x="95.5" y="1530.0" />
+              <point x="0.0" y="61.5" />
+            </edge>
+            <edge source="UpdateStatus" target="DbSingleton">
+              <point x="0.0" y="-41.0" />
+              <point x="-85.625" y="461.5" />
+            </edge>
+            <edge source="Model.StatisList" target="Model.StatisBody">
+              <point x="111.33333333333348" y="-82.0" />
+              <point x="2161.3020833333335" y="268.0" />
+              <point x="2203.96875" y="268.0" />
+              <point x="154.0" y="121.5" />
+            </edge>
+            <edge source="ResortServlet" target="DbSingleton">
+              <point x="42.799999999999955" y="-21.0" />
+              <point x="565.55" y="1520.0" />
+              <point x="1245.84375" y="1520.0" />
+              <point x="1245.84375" y="1266.0" />
+              <point x="1263.59375" y="1266.0" />
+              <point x="-256.875" y="461.5" />
+            </edge>
+            <edge source="Model.Message.ResortNotFound" target="Model.Message.AbstractMessage">
+              <point x="60.25" y="-41.0" />
+              <point x="391.75" y="1246.0" />
+              <point x="589.6660156250001" y="1246.0" />
+              <point x="-95.3125" y="61.5" />
+            </edge>
+            <edge source="Model.Message.InvalidInput" target="Model.Message.AbstractMessage">
+              <point x="-50.75" y="-41.0" />
+              <point x="522.75" y="1256.0" />
+              <point x="627.7910156250001" y="1256.0" />
+              <point x="-57.1875" y="61.5" />
+            </edge>
+            <edge source="StatisticsServlet" target="DbSingleton">
+              <point x="-64.5" y="-21.0" />
+              <point x="1920.96875" y="1266.0" />
+              <point x="1777.34375" y="1266.0" />
+              <point x="256.875" y="461.5" />
+            </edge>
+            <edge source="Model.ResortList" target="Model.Resort">
+              <point x="-79.75" y="-61.5" />
+              <point x="79.75" y="1825.0" />
+              <point x="100.0" y="1825.0" />
+              <point x="-59.5" y="81.5" />
+            </edge>
+            <edge source="SkierServlet" target="UpdateStatus">
+              <point x="-25.375" y="-21.0" />
+              <point x="1548.59375" y="1530.0" />
+              <point x="1524.09375" y="1530.0" />
+              <point x="89.25" y="41.0" />
+            </edge>
+            <edge source="ResortServlet" target="UpdateStatus">
+              <point x="85.60000000000002" y="-21.0" />
+              <point x="608.35" y="1530.0" />
+              <point x="1345.59375" y="1530.0" />
+              <point x="-89.25" y="41.0" />
+            </edge>
+            <edge source="Model.SkierVertical" target="Model.SkierVerticalResorts">
+              <point x="0.0" y="-21.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="StatisticsServlet" target="Model.StatisList">
+              <point x="64.5" y="-21.0" />
+              <point x="0.0" y="82.0" />
+            </edge>
+            <edge source="ResortServlet" target="Model.Message.InvalidInput">
+              <point x="0.0" y="-21.0" />
+              <point x="-50.75" y="41.0" />
+            </edge>
+            <edge source="SkierServlet" target="Model.LiftRide">
+              <point x="76.125" y="-21.0" />
+              <point x="1650.09375" y="1530.0" />
+              <point x="2286.46875" y="1530.0" />
+              <point x="0.0" y="102.0" />
+            </edge>
+            <edge source="Model.Message.DataNotFound" target="Model.Message.AbstractMessage">
+              <point x="-70.0" y="-41.0" />
+              <point x="1021.0" y="1246.0" />
+              <point x="780.2910156250001" y="1246.0" />
+              <point x="95.3125" y="61.5" />
+            </edge>
+            <edge source="Model.Message.InValidResortId" target="Model.Message.AbstractMessage">
+              <point x="-59.0" y="-41.0" />
+              <point x="754.0" y="1266.0" />
+              <point x="704.0410156250001" y="1266.0" />
+              <point x="19.0625" y="61.5" />
+            </edge>
+            <edge source="SkierServlet" target="Model.Message.InvalidInput">
+              <point x="-76.125" y="-21.0" />
+              <point x="1497.84375" y="1510.0" />
+              <point x="624.25" y="1510.0" />
+              <point x="50.75" y="41.0" />
+            </edge>
+            <edge source="ResortServlet" target="Model.Message.ResortNotFound">
+              <point x="-42.80000000000001" y="-21.0" />
+              <point x="479.95000000000005" y="1520.0" />
+              <point x="331.5" y="1520.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7109884596086302" x="217.45130557515876" y="327.55822159491885" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>packageLocal</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StatisticsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SkierServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2099">
+          <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ResortServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1017">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DbSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StatisList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StatisBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/SkierVertical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Assignment2:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.313052" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Assignment2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.313052" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
