@@ -125,7 +125,7 @@ public class ThreadDispatcher implements Runnable {
       DataAnalyser dataAnalyser = new DataAnalyser(response);
       System.out.println("mean response time (millisecs) " + dataAnalyser.meanResponseTime());
       System.out.println("median response time (millisecs) " + dataAnalyser.medianResponseTime());
-      System.out.println("throughput " + (double)dataAnalyser.getNumberRequest()/(double)duration);
+      System.out.println("throughput " + (double)dataAnalyser.getNumberRequest()/(double)duration*1000);
       System.out.println("p99 (99th percentile) response time " + dataAnalyser.getP99Response());
       System.out.println("max response time " + dataAnalyser.getMaxRespones());
 
