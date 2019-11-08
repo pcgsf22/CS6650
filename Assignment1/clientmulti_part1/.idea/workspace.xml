@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d589f5d5-cc5a-4a40-bd07-7385a420cbbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../clientmulti_part2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.1.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandlineparser/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commandlineparser/Params.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/clientmulti.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/swagger-java-client.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../clientmulti_part2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../clientmulti_part2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientmulti_part2/src/main/java/commandlineparser/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/../clientmulti_part2/src/main/java/commandlineparser/Params.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/Params.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -52,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/ModeErrorException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="132">
               <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
@@ -65,110 +56,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClientMulti.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="132">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/ActiveCount">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>ActiveCount</OriginalElement>
-              <nodes>
-                <node x="0.0" y="313.5">SkiApiHandlerRunnable</node>
-                <node x="1024.375" y="213.0">commandlineparser.Params</node>
-                <node x="1249.4636363636364" y="587.0">commandlineparser.CommandlineParser</node>
-                <node x="782.1022727272727" y="587.0">ThreadDispatcher</node>
-                <node x="1319.25" y="313.5">commandlineparser.ModeErrorException</node>
-                <node x="716.2287878787879" y="0.0">ActiveCount</node>
-                <node x="1030.875" y="770.0">ClientMulti</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="SkiApiHandlerRunnable" target="ActiveCount">
-                  <point x="245.25" y="-61.5" />
-                  <point x="735.75" y="193.0" />
-                  <point x="820.8537878787879" y="193.0" />
-                  <point x="-34.875" y="81.5" />
-                </edge>
-                <edge source="ThreadDispatcher" target="ActiveCount">
-                  <point x="0.0" y="-61.5" />
-                  <point x="945.1022727272727" y="567.0" />
-                  <point x="1002.5" y="567.0" />
-                  <point x="1002.5" y="183.0" />
-                  <point x="960.3537878787879" y="183.0" />
-                  <point x="104.625" y="81.5" />
-                </edge>
-                <edge source="commandlineparser.CommandlineParser" target="commandlineparser.ModeErrorException">
-                  <point x="85.5" y="-61.5" />
-                  <point x="1505.9636363636364" y="567.0" />
-                  <point x="1455.25" y="567.0" />
-                  <point x="-136.0" y="61.5" />
-                </edge>
-                <edge source="ThreadDispatcher" target="SkiApiHandlerRunnable">
-                  <point x="-130.39999999999998" y="-61.5" />
-                  <point x="814.7022727272728" y="567.0" />
-                  <point x="490.5" y="567.0" />
-                  <point x="0.0" y="61.5" />
-                </edge>
-                <edge source="ClientMulti" target="commandlineparser.CommandlineParser">
-                  <point x="32.66666666666674" y="-61.0" />
-                  <point x="1259.5416666666667" y="730.0" />
-                  <point x="1334.9636363636364" y="730.0" />
-                  <point x="-85.5" y="61.5" />
-                </edge>
-                <edge source="ClientMulti" target="commandlineparser.ModeErrorException">
-                  <point x="163.33333333333326" y="-61.0" />
-                  <point x="1390.2083333333333" y="750.0" />
-                  <point x="1627.6909090909091" y="750.0" />
-                  <point x="1627.6909090909091" y="567.0" />
-                  <point x="1727.25" y="567.0" />
-                  <point x="136.00000000000006" y="61.5" />
-                </edge>
-                <edge source="commandlineparser.CommandlineParser" target="commandlineparser.Params">
-                  <point x="-85.5" y="-61.5" />
-                  <point x="1334.9636363636364" y="567.0" />
-                  <point x="1260.625" y="567.0" />
-                  <point x="101.25" y="162.0" />
-                </edge>
-                <edge source="ThreadDispatcher" target="commandlineparser.Params">
-                  <point x="65.20000000000005" y="-61.5" />
-                  <point x="1010.3022727272728" y="567.0" />
-                  <point x="1058.125" y="567.0" />
-                  <point x="-101.25" y="162.0" />
-                </edge>
-                <edge source="ClientMulti" target="commandlineparser.Params">
-                  <point x="-32.66666666666674" y="-61.0" />
-                  <point x="1194.2083333333333" y="750.0" />
-                  <point x="1178.875" y="750.0" />
-                  <point x="1178.875" y="567.0" />
-                  <point x="1193.125" y="567.0" />
-                  <point x="33.75" y="162.0" />
-                </edge>
-                <edge source="ClientMulti" target="ThreadDispatcher">
-                  <point x="-163.33333333333326" y="-61.0" />
-                  <point x="1063.5416666666667" y="750.0" />
-                  <point x="863.6022727272727" y="750.0" />
-                  <point x="-81.5" y="61.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="135.0" y="220.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>Project Files</SCOPE>
-              <VISIBILITY>packageLocal</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -202,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThreadDispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="836">
               <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -268,8 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,11 +264,12 @@
       <workItem from="1570112626570" duration="478000" />
       <workItem from="1570813610245" duration="4002000" />
       <workItem from="1570827875474" duration="7318000" />
+      <workItem from="1570896757473" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60013000" />
+    <option name="totallyTimeSpent" value="60174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,9 +281,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1708" y="215" width="2880" height="1578" extended-state="1" />
+    <frame x="1708" y="215" width="2880" height="1578" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20342612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20592435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -596,6 +489,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -616,6 +510,26 @@
           </nodes>
           <notes />
           <edges>
+            <edge source="ThreadDispatcher" target="commandlineparser.Params">
+              <point x="65.20000000000005" y="-61.5" />
+              <point x="1010.3022727272728" y="567.0" />
+              <point x="1058.125" y="567.0" />
+              <point x="-101.25" y="162.0" />
+            </edge>
+            <edge source="ClientMulti" target="commandlineparser.Params">
+              <point x="-32.66666666666674" y="-61.0" />
+              <point x="1194.2083333333333" y="750.0" />
+              <point x="1178.875" y="750.0" />
+              <point x="1178.875" y="567.0" />
+              <point x="1193.125" y="567.0" />
+              <point x="33.75" y="162.0" />
+            </edge>
+            <edge source="ThreadDispatcher" target="SkiApiHandlerRunnable">
+              <point x="-130.39999999999998" y="-61.5" />
+              <point x="814.7022727272728" y="567.0" />
+              <point x="490.5" y="567.0" />
+              <point x="0.0" y="61.5" />
+            </edge>
             <edge source="SkiApiHandlerRunnable" target="ActiveCount">
               <point x="245.25" y="-61.5" />
               <point x="735.75" y="193.0" />
@@ -636,12 +550,6 @@
               <point x="1455.25" y="567.0" />
               <point x="-136.0" y="61.5" />
             </edge>
-            <edge source="ThreadDispatcher" target="SkiApiHandlerRunnable">
-              <point x="-130.39999999999998" y="-61.5" />
-              <point x="814.7022727272728" y="567.0" />
-              <point x="490.5" y="567.0" />
-              <point x="0.0" y="61.5" />
-            </edge>
             <edge source="ClientMulti" target="commandlineparser.CommandlineParser">
               <point x="32.66666666666674" y="-61.0" />
               <point x="1259.5416666666667" y="730.0" />
@@ -661,20 +569,6 @@
               <point x="1334.9636363636364" y="567.0" />
               <point x="1260.625" y="567.0" />
               <point x="101.25" y="162.0" />
-            </edge>
-            <edge source="ThreadDispatcher" target="commandlineparser.Params">
-              <point x="65.20000000000005" y="-61.5" />
-              <point x="1010.3022727272728" y="567.0" />
-              <point x="1058.125" y="567.0" />
-              <point x="-101.25" y="162.0" />
-            </edge>
-            <edge source="ClientMulti" target="commandlineparser.Params">
-              <point x="-32.66666666666674" y="-61.0" />
-              <point x="1194.2083333333333" y="750.0" />
-              <point x="1178.875" y="750.0" />
-              <point x="1178.875" y="567.0" />
-              <point x="1193.125" y="567.0" />
-              <point x="33.75" y="162.0" />
             </edge>
             <edge source="ClientMulti" target="ThreadDispatcher">
               <point x="-163.33333333333326" y="-61.0" />
@@ -697,12 +591,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-result/32.png">
+    <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/CommandlineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/Params.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-result/64.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/ModeErrorException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="132">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
@@ -711,36 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-result/64.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/CommandlineParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commandlineparser/Params.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClientMulti.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="132">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -748,10 +629,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/running-result/32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ActiveCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
